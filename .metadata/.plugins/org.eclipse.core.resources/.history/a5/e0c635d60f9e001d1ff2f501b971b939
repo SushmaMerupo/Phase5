@@ -1,0 +1,15 @@
+package com.cisco.Sporty_shoes.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+
+import com.cisco.Sporty_shoes.repo.UsersRepo;
+
+@RestController
+public class Userscontroller {
+	
+	@Autowired
+	UsersRepo Urepo;
+
+}
